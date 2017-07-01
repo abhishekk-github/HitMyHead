@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // Create the text view to show the level number.
         mLevelTextView = (TextView) findViewById(R.id.level);
         mLevel = START_LEVEL;
 

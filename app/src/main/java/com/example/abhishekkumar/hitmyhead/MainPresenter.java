@@ -1,6 +1,7 @@
 package com.example.abhishekkumar.hitmyhead;
 
 import android.app.Activity;
+import android.util.Log;
 
 /**
  * Created by abhishekkumar on 01/07/17.
@@ -30,6 +31,7 @@ public class MainPresenter extends Activity {
     @Override
     protected void onPause() {
         super.onPause();
+        Log.v("HitMyHead","OnPause will be called");
     }
 
     @Override

@@ -8,6 +8,8 @@ import android.util.Log;
  */
 
 public class MainPresenter extends Activity {
+
+
     @Override
     protected void onStart() {
         super.onStart();
